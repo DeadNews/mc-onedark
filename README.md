@@ -1,0 +1,1 @@
+# One Dark theme for Midnight Commander
