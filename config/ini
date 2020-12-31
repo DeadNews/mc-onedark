@@ -93,7 +93,7 @@ screen=
 
 [Layout]
 output_lines=0
-left_panel_size=48
+left_panel_size=49
 top_panel_size=24
 message_visible=false
 keybar_visible=true
@@ -117,7 +117,6 @@ source_codepage=Other_8_bit
 autodetect_codeset=
 clipboard_store=
 clipboard_paste=
-
 spell_language=en
 
 [Panels]
@@ -141,6 +140,17 @@ torben_fj_mode=false
 quick_search_mode=2
 select_flags=6
 simple_swap=false
+
+[DiffView]
+show_symbols=false
+show_numbers=false
+tab_size=8
+diff_quality=0
+diff_ignore_tws=false
+diff_ignore_all_space=false
+diff_ignore_space_change=false
+diff_tab_expansion=false
+diff_ignore_case=false
 
 [Panelize]
 Find *.orig after patching=find . -name \\*.orig -print
