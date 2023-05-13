@@ -1,0 +1,8 @@
+- defaults:
+    link:
+      create: true
+      glob: true
+
+- link:
+    ~/.local/share/mc/skins: skins/**
+    ~/.config/mc/: config/**
