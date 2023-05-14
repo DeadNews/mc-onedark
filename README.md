@@ -15,7 +15,7 @@ The 16M color version can be used independently of any terminal color scheme, bu
 - Copy files from `./skins` to `~/.local/share/mc/skins`
 - Copy files from `./config` to `~/.config/mc/` (optional)
 
-### Alternative
+or
 
 - Link configs with [dotbot](https://github.com/anishathalye/dotbot):
 
