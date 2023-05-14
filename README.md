@@ -15,27 +15,35 @@ The 16M color version can be used independently of any terminal color scheme, bu
 - Copy files from `./skins` to `~/.local/share/mc/skins`
 - Copy files from `./config` to `~/.config/mc/` (optional)
 
+or
+
+- Link configs with [dotbot](https://github.com/anishathalye/dotbot):
+
+```sh
+dotbot -c install.conf.yaml
+```
+
 ## Activating ways
 
-- Choose the skin through the mc UI with:
+1. Choose the skin through the mc UI with:
 
 ```sh
 # F9 > Options > Appearance
 ```
 
-- Edit `~/.config/mc/ini` and add `skin=onedark`:
+2. Edit `~/.config/mc/ini` and add `skin=onedark`:
 
 ```sh
 sed -i 's|\(^skin=\).*$|\1onedark|' ~/.config/mc/ini
 ```
 
-- Run mc with specific skin:
+3. Run mc with specific skin:
 
 ```sh
 mc -S onedark
 ```
 
-- Add `export MC_SKIN=onedark` to the initialization file of your shell (e.g., `~/.bashrc` or `~/.zshrc`):
+4. Add `export MC_SKIN=onedark` to the initialization file of your shell (e.g., `~/.bashrc` or `~/.zshrc`):
 
 ```sh
 echo "export MC_SKIN=onedark" >> ~/.zshrc
